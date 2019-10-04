@@ -30,7 +30,7 @@ void Jet::setNumberOfEngines(int engNum){
 }
 
 double Jet::mileageEstimate(double time){
-  int random = (rand() % 60) + 40;
+  int random = (rand()%60) + 40;    //random # between 1-60 and then add 40
   double mile = random * time;
 
   if(numberOfEngines > 2 && getFuelType() == "Rocket")
