@@ -2,6 +2,7 @@
 //Megan Guercio
 
 #include "Jet.h"
+using namespace std;
 
 Jet::Jet(){           //constructor
   numberOfEngines = 1;
