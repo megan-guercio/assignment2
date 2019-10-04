@@ -16,8 +16,9 @@ public:
   explicit Jet(string brand, string model, string fuelType, int engNum);
 
   virtual ~Jet();
-  int getEngineSize();
-  void setEngineSize();
+  int getNumberOfEngines();
+  void setNumberOfEngines(int x);
+
   virtual double mileageEstimate(double time);
   virtual string toString();
 
