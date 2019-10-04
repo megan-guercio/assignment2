@@ -1,0 +1,46 @@
+(a) I found that the IDE "Atom" was the most user friendly way to learn Git!  Therefore, I performed all of my commits through the
+    IDE, which does not give a "command prompt" style response.  Atom links to Github and I could log in on the IDE, to perform my
+    assignment.  I downloaded a log and recorded the information pertaining to this commit.  Here is what I have:
+
+    Commit: 97df7fb795ce277091b727776f06b1fe7806dc7e [97df7fb]
+    Parents: a58306a879
+    Author: Megan Guercio <mmg16d@my.fsu.edu>
+    Date: 4 Oct 2019 15:10:14
+
+    Added docs folder and status text file
+
+(b) 9 - I used the command: git rev-list --all --count
+
+(c) commit e424a923e80da4772ca789591ef3326230062a71
+    Author: Esteban Parra <estebanpr014@gmail.com>
+    Date:   Wed Sep 25 18:13:30 2019 -0400
+
+    -> Tracking .gitignore
+
+    I used the command: git log -- .gitignore
+
+(d) Branches are used in a git repository because they are pointers, and make for convenient storage among members of a group.
+    Therefore they are very "lightweight."  Also, since they are lightweight, they are nearly instantaneous, and quick to switch back
+    and forth from.
+
+(e) Git log lists the commits made in that repository, while, git status displays the current state of the working directory.
+
+(f) git log --follow Vehicle.h
+
+(g) git log --grep="file"
+
+(h) Inheritance- allows for a user to create a derived class from a base class, while the derived class inherits all of the
+    features of the base class
+
+    Polymorphism- redefining methods differently depending on their data type or class
+
+    Encapsulation- combining data and methods, in a group, that work on that data within the unit
+
+(i) The main difference between the "Dictator and Lieutenants" workflow and the "Integration Manager" workflow is the number
+    of repositories.  In the former, everyone in the group makes pulls from one central repository.  While, in the ladder,
+    each developer pushes and pulls to their own individual repository.
+
+(j) A team of 100 developers would benefit more by using a Dictator and Lieutenants workflow because this would create a hierarchal
+    structure, which is lacked in the Integration Manager workflow.  A manager could approve changes and make sure that his/her policies
+    are being followed in the software developing stages.  There is more oversight and would leave less room for user error and users
+    trying to implement their own, unapproved, ideas.
