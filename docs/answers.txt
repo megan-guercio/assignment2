@@ -44,3 +44,6 @@
     structure, which is lacked in the Integration Manager workflow.  A manager could approve changes and make sure that his/her policies
     are being followed in the software developing stages.  There is more oversight and would leave less room for user error and users
     trying to implement their own, unapproved, ideas.
+
+#5  The Driving simulator prototype uses both Polymorphism and Encapsulation.  It uses Polymorphism by using "virtual" modules, and derived
+    classes from PoweredVehicle. It uses Encapsulation by using private variables that are accessed by accessor functions. 
